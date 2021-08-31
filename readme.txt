@@ -22,10 +22,6 @@ Rather than forcing you to manually enforce your editorial standards of includin
 
 By default it works on the "Post" content type only, but you can specify other content types, or turn it off for Posts in the new options page in your left sidebar: Settings > Req Featured Image. Simply check and uncheck the appropriate types, set a minimum image size if you desire, hit save and you're all set. Happy publishing!
 
-= Anything else? =
-
-Don't forget to check out [the plugins page on our website](http://pressupinc.com/wordpress-plugins/require-featured-image/), and don't hesitate to [browse and fork on GitHub](https://github.com/pressupinc/require-featured-image). Have a unique WordPress project you need help on? [Get in touch with Press Up](http://pressupinc.com/contact/) to set yourself up for success.
-
 == Installation ==
 
 Activate the plugin. No other steps are necessary to require featured images on Posts only.
@@ -36,7 +32,7 @@ If you want to require featured images on a different content type, or allow Pos
 
 = What post (content) types does this plugin work for? =
 
-Every "custom post type" — or variety of content — is now supported.
+Every "custom post type" — or variety of content — that supports thumbnails is supported.
 
 = How does it prevent people from publishing a post without featured images? =
 
@@ -54,23 +50,21 @@ Because you want it to be *required* that your posts have featured images before
 
 = Are there any options? =
 
-Yep, just for different "custom post types." In your left sidebar under Settings, you should see "Req Featured Image". There are options. You can choose which Post Types you want check as well as setting a minimum size for the featured image. Happy publishing!
+Yes: for different "custom post types", and for their thumbnail dimensions, which can be all set to the same or individually set. In your left sidebar under Settings, you should see "Req Featured Image". This is where the options are set. You can choose which Post Types you want check as well as setting minimum size(s) for the featured image. Happy publishing!
 
 = Support for other languages? =
 
-Yes. We're currently (early 2016) hoping that these can start being done on [traslate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/require-featured-image), so if you'd like to contribute one and are familiar with the process, go ahead and do it there.
-
-As the dust is still settling on that process, we will continue supporting other languages via contributions of translations which will be rolled into the next point release of the plugin, as we've done historically.
+The plugin is fully translatable. For now, contact Delwin Vriend at the github address and the pot file can be provided to you to translate into another language.
 
 == Screenshots ==
 
 1. The warning that you see when editing a post that doesn't have a featured image set. The "Publish" button is also disabled.
 
-2. The settings page, which lets you specify which post types the plugin should operate on.
+2. The settings page, which lets you specify which post types the plugin should operate on and other options.
 
 == CHANGELOG ==
 
-= 1.01 (2021.08.31) =
+= 1.0.1 (2021.08.31) =
 * Add option for all posts thumbnails to have the same minimum size (the default), restoring the old setting from the Require Featured Image plugin, if it was installed.
 
 = 1.0 (2021.08.30) =

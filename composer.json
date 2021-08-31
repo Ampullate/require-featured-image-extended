@@ -1,13 +1,13 @@
 {
-	"name" : "ampullate/require-featured-image-extended",
+	"name" : "Ampullate/require-featured-image-extended",
 	"type" : "wordpress-plugin",
 	"license" : "MIT",
 	"description" : "Requires content you specify to have a featured image set before they can be published.",
-	"homepage" : "https://github.com/ampullate/require-featured-image-extended",
+	"homepage" : "https://github.com/Ampullate/require-featured-image-extended",
 	"authors" : [{
 			"name" : "Delwin Vriend",
 			"email" : "delwin@ampullate.com",
-			"homepage" : "https://github.com/ampullate"
+			"homepage" : "https://github.com/Ampullate"
 		}, {
 			"name" : "Press Up",
 			"email" : "contact@pressupinc.com",

@@ -3,7 +3,7 @@
  * URI: http://ampullate.com/wordpress-plugins/require-featured-image-extended/
  * Description: Requires configured posts to have a featured image set before they'll be published, with optional minimum sizes
  * Author: Delwin Vriend, based on work by Press Up
- * Version: 1.01
+ * Version: 1.0.1
  * Author URI: http://ampullate.com
  * Text Domain: require-featured-image-extended
  */
