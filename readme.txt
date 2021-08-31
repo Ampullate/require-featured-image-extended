@@ -4,7 +4,7 @@ Plugin URI: https://ampullate.com/wordpress-plugins/require-featured-image-exten
 Tags: featured image, images, edit, post, admin, require featured image, image, media, thumbnail, thumbnails, post thumbnail, photo, pictures
 Requires at least: 5.8
 Tested up to: 5.8
-Stable tag: 1.01
+Stable tag: 1.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
