@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+fieldset.dimensions {
+	border: 2px groove threedface;
+	margin-bottom: 20px;
+	max-width: 400px;
+	padding: 0.35em 0.75em 0.625em;
+}
+
+fieldset.dimensions legend {
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+.form-table td fieldset.dimensions label,
+fieldset.dimensions label {
+	display: block;
+	white-space: nowrap;
+}
+
+fieldset.dimensions label span {
+	display: inline-block;
+	min-width: 10em;
+	text-align: right;
+}
+
+fieldset.dimensions input[type="number"] {
+	width: 8em;
+}
+
+fieldset.type {
+	margin-bottom: 20px;
+}
+
+fieldset.type input.enforced {
+	margin-left: 30px;
+}
+
+fieldset.type input:not(:checked) ~ input.enforced,
+fieldset.type input:not(:checked) ~ input.enforced + label {
+	display: none;
+}
+
+label[for="rfi_post_types_same_dimensions"] {
+	display: inline-block;
+	margin-bottom: 20px;
+}

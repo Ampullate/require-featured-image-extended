@@ -1,0 +1,96 @@
+# Copyright (C) 2021 Delwin Vriend, based on work by Press Up
+# This file is distributed under the same license as the Require Featured Image Extended Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Require Featured Image Extended Plugin 1.01\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/require-featured-image-extended\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-31T12:21:14+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: require-featured-image-extended\n"
+
+#. Plugin Name of the plugin
+msgid "Require Featured Image Extended Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "Requires configured posts to have a featured image set before they'll be published, with optional minimum sizes"
+msgstr ""
+
+#. Author of the plugin
+msgid "Delwin Vriend, based on work by Press Up"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://ampullate.com"
+msgstr ""
+
+#: admin-options.php:14
+msgid "Require Featured Image"
+msgstr ""
+
+#: admin-options.php:18
+msgid "Save Changes"
+msgstr ""
+
+#: admin-options.php:49
+msgid "Post Types"
+msgstr ""
+
+#: admin-options.php:52
+msgid "Post Types that require featured images "
+msgstr ""
+
+#: admin-options.php:56
+msgid "Image Size"
+msgstr ""
+
+#: admin-options.php:58
+msgid "Minimum size of featured images"
+msgstr ""
+
+#: admin-options.php:63
+msgid "You can specify the post type for Require Featured Image to work on. By default it works on Posts only."
+msgstr ""
+
+#: admin-options.php:64
+msgid "If you're not seeing a post type here that you think should be, it probably does not have support for featured images. Only post types that support featured images will appear on this list."
+msgstr ""
+
+#: admin-options.php:65
+msgctxt "%1$s will be replaced with the date in the current date format set by WordPress, in WordPress' current language"
+msgid "By default, this plugin enforces thumbnails only for items published from two weeks before this plugin was initially enabled (so from %1$s, onwards). You can override this behavior, below."
+msgstr ""
+
+#: admin-options.php:69
+msgid "The minimum acceptable size can be set for featured images. This size means that posts with images smaller than the specified dimensions cannot be published. By default the sizes are zero, so any image size will be accepted."
+msgstr ""
+
+#: require-featured-image-extended.php:53
+msgctxt "%1$s will be replaced with the post-type name (e.g. \"Post\"); %2$s will be replaced with the minimum width in pixels, %3$s will be replaced with the minimum height in pixels"
+msgid "<strong>This %1$s has no featured image.</strong> A featured image with minimum dimensions of <strong>%2$s✕%3$s px</strong> must be set before publishing."
+msgstr ""
+
+#: require-featured-image-extended.php:54
+msgctxt "%1$s will be replaced with the post-type name (e.g. \"Post\"); %2$s will be replaced with the minimum width in pixels, %3$s will be replaced with the minimum height in pixels"
+msgid "<strong>This %1$s has a featured image that is too small.</strong> Please use an image with minimum dimensions of <strong>%2$s✕%3$s px</strong>."
+msgstr ""
+
+#: require-featured-image-extended.php:55
+msgctxt "Notice used in Thumbnail box when it is missing and required. %1$s will be replaced with the minimum width in pixels, %2$s will be replaced with the minimum height in pixels"
+msgid "Image Required (min %1$s✕%2$s px)"
+msgstr ""
+
+#: require-featured-image-extended.php:172
+msgid "You cannot publish without a featured image."
+msgstr ""
+
+#: require-featured-image-extended.php:174
+msgctxt "%1$s will be replaced with the minimum width in pixels, %2$s will be replaced with the minimum height in pixels"
+msgid "You cannot publish without a featured image that is at least %1$s✕%2$s px"
+msgstr ""
